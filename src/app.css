@@ -12,14 +12,18 @@ body {
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 120px;
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 320px;
+  position: absolute;
+  left:5%;
+  top:5%;
 }
 
 .App-header {
   background-color: #ddd;
-  height: 170px;
-  padding: 20px;
+  height: 70px;
+  padding: 10px;
+  margin-top: 5%;
   color: black;
 }
 
