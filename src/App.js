@@ -1,21 +1,5 @@
-import React, { Component } from 'react'
-import logo from './logo.png'
+import React from 'react';
+import Routes from './routes';
+import './app.css';
 
-import './app.css'
-
-class App extends Component {
-  render () {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-        </header>
-        <p className="App-intro">
-          This is going to be a test run using react static
-        </p>
-      </div>
-    )
-  }
-}
-
-export default App
+export default () => <Routes />;
